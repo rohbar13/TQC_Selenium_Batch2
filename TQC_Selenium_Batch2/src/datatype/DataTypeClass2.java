@@ -1,17 +1,18 @@
 package datatype;
 
-public class DataTypeClass1 {
+public class DataTypeClass2 {
 
-	static byte b;
-	static short s;
-	static int x;
-	static long l;
-	static double d;
-	static float f;
-	static char c;
-	static boolean bo;
-	
 	public static void main(String[] args) {
+		
+		byte b = 127;
+		short s = 254;
+		int x = 54874;
+		long l = 9223372036l;
+		double d = 9223372036d;
+		float f = 9223372036f;
+		char c = 90;
+		boolean bo = true;
+		
 		System.out.println(b);
 		System.out.println(s);
 		System.out.println(x);
