@@ -28,8 +28,6 @@ public class DaysSelection {
 		} else if (d.equals("sat")) {
 			return 7;
 		}
-
 		return 0;
 	}
-
 }
