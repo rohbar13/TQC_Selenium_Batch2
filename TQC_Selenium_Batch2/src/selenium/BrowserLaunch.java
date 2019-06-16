@@ -1,7 +1,5 @@
 package selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserLaunch {
@@ -18,10 +16,8 @@ public class BrowserLaunch {
 		
 		String actualString = driver.getTitle();// This will be available at run time
 		
-		
 		expectedString = expectedString.trim(); // to remove the spaces from start and end
 		actualString = actualString.trim(); // to remove the spaces from start and end
-		
 		
 		if(expectedString.equalsIgnoreCase(actualString)) {
 			System.out.println("Page is correctly displayed");
