@@ -21,7 +21,7 @@ public class Director {
 	
 	public void printManagerInfo() {
 		System.out.println(emp_id);
-		System.out.println(age);
+
 		System.out.println(salary);
 		System.out.println(grade);
 	}
